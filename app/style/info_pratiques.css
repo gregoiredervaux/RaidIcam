@@ -1,0 +1,92 @@
+#titre_principale{
+	height: 45vh;
+	width: 100%;
+	background: url('/library/img/info_pratiques/info_pratiques.png') no-repeat center center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#titre_principale h1{
+	font-size: 80px;
+	font-family: segoeui;
+	color:white;
+	text-shadow: 2px 2px 3px #000;
+}
+
+article {
+	padding-top: 5%;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	width: 90vw;
+	display: flex;
+	justify-content: space-between;
+}
+
+.column{
+	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 40vw;
+	background-color: white;
+}
+
+.num-1{
+	border-top-left-radius: 2em;
+	border-bottom-left-radius: 2em;
+}
+
+.num-2{
+	border-top-right-radius: 2em;
+	border-bottom-right-radius: 2em;
+}
+
+
+h2 {
+	color: black;
+	font-family: raleway;
+	font-size: 36px;
+	padding-bottom: 10px;
+	margin: 40px 0 20px 0;
+	border-bottom: 1px solid #eee;
+	display:flex;
+	justify-content: space-between;
+}
+
+p{
+	margin-top: 10px 0 10px 0;
+	text-align: justify;
+	font-family: raleway;
+	color: black;
+	font-size: 11pt;
+}
+
+table{
+	font-size: 14px;
+	font-family: segoeui;
+	color: black;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.tarif-table table{
+	border:1px solid #000000;
+}
+.tarif-table td{
+	vertical-align:middle;
+	background-color:#F2F2F2;
+	border:1px solid #000000;
+	text-align: center;
+	padding:10px;
+}
+.tarif-table .colonne-titre{
+	vertical-align:middle;
+	background-color:#4F99DD;
+	border:1px solid #000000;
+	text-align: center;
+	color: white;
+	padding:12px;
+}

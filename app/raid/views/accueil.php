@@ -16,6 +16,8 @@ if(empty($_SESSION['sponsor']))
 		<link rel="shortcut icon" href="../../../library/img/favicon.ico"> 
 		<link href="../../style/bootstrap.css" rel="stylesheet">
 		<link rel="stylesheet" href="../../style/default.css">
+    <link rel="stylesheet" href="../../style/accueil.css">
+
 
 	</head>
 	<body>
