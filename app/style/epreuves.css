@@ -1,0 +1,70 @@
+/*===================================================================/
+/========================== EPREUVES ================================/
+/===================================================================*/
+
+#page_epreuves{
+	display: flex;
+}
+
+/* colonne de gauche, <nav> */
+
+#nav_epreuves{
+	width:20%;
+}
+
+#descr_des_epreuves{
+	width: 80%;
+}
+
+.nav_epreuves_box{
+	height: 30vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav_epreuves_box img{
+	width: 7vh;
+	height: auto;
+}
+/*colonne de droite, corps de la page*/
+
+.conteneur_descr_epreuves{
+	width: 80%;
+	height: 30vh;
+}
+
+#titre_epreuves{
+	font-family: Capture it;
+	font-size: 3em;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height: 30vh;
+}
+
+.descr_epreuve{
+	width: 70%;
+	height: 100%;
+}
+
+.conteneur_epreuves_img{
+	width: 30%;
+	height: 100%;
+	display: flex;
+}
+
+.ligne_tableau{
+	width: 90%;
+	height: 10vh;
+}
+
+.colonne_tableau{
+	width: 33.33%;
+	height: 100%;
+}
+
+.img_tableau{
+	height:100%;
+	width:auto;
+}

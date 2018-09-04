@@ -1,0 +1,1 @@
+<?php header('Location: app/raid/controllers/index_to_accueil.php'); ?>

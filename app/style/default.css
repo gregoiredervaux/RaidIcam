@@ -1,0 +1,516 @@
+
+/*===================================================================/
+/========================== HEARDER =================================/
+/===================================================================*/
+
+/*bouton déroulant*/
+
+.btn {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn-navbar {
+    display: none;
+    float: right;
+    padding: 12px 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.icon-bar {
+    display: block;
+    width: 18px;
+    height: 3px;
+    background-color: #CECECE;
+    -webkit-border-radius: 1px; /* Ce sont des préfixes, pour que les navigateurs */
+       -moz-border-radius: 1px; /* prennent en charge les nouvelles propriétés. */
+            border-radius: 1px;
+}
+
+.icon-bar + .icon-bar { /* Le + permet de sélectionner les éléments qui suivent */
+    margin-top: 3px;
+}
+
+/*menu déroulant*/
+header{
+	background-color: orange;
+	display: flex;
+	justify-content: center;
+	border-radius: 20px;
+  	box-shadow: 1px 1px 12px #555;
+	color:white;
+}
+header img{
+	margin-top: 1vh;
+	margin-bottom:  1vh;
+	margin: 1vw 2vh 1vw 2vh;
+	position: absolute;
+	left:5vw;
+	border-radius: 50%;
+	background-color: orange;
+	width:5vw;
+	height: auto;
+	box-shadow: 1px 1px 12px #555;
+}
+ header img:hover{
+	box-shadow: 1px 1px 12px #000;	
+ }
+#header{
+	display: flex;
+	justify-content: center;
+}
+
+#header div{
+	font-family: Capture it;
+}
+
+.conteneur{
+	width: 13vw;
+}
+
+#header h1{
+	font-size: 1.5vw;
+	text-align: center;	
+}
+
+#header .menu_deroulant{
+	display:none;
+	position: absolute;
+	z-index:1;
+	background-color: orange;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	width: 13vw;
+	height: 15%;
+	border-radius:20px; 
+}
+
+#header div nav{
+	font-size: 1vw;
+}
+
+
+/*===================================================================/
+/========================== ACCUEIL RAID ============================/
+/===================================================================*/
+
+body{
+	background-image:url(../../library/img/accueil/fort_n&b.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/* CAROUSEL
+-------------------------------------------------- */
+
+
+#carousel{
+	margin-top:10vh;
+	padding-left:15%;
+	padding-right:15%;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.carousel{
+	width: 20vw;
+}
+.rounded {
+  border-radius: 1rem !important;
+}
+
+.text_carousel{
+	position: absolute;
+	z-index: 1;
+	height: 100%;
+	opacity: 0.5;
+}
+
+.carousel-inner:hover{
+
+	box-shadow: 0px 0px 10px 8px #ffffff;
+}
+.text_carousel:hover{
+	opacity: 1;
+}
+
+/* CARRE CLIQUABLE
+---------------------------------------------------*/
+
+#carre_cliquable{
+	padding-top:5%;
+	padding-left:15%;
+	padding-right:15%;
+	padding-bottom:10%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.carre_info{
+    background-image:url(../../library/img/accueil/fond_carre_info.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    width: 20vw;
+    height: auto; 
+    min-height:150%;
+    max-height:15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.carre_info:hover {
+
+	box-shadow: 0px 0px 10px 8px #ffffff;
+	font-size:120%;
+}
+
+.contenu_info{
+	margin-left: 10%;
+	margin-right: 10%;
+    font-family: Capture it; 
+    font-size: 2vw;
+	color: black;
+	text-align: center;
+}
+
+a:link{
+	text-decoration:none;
+}
+
+/*date
+---------------------------------------------------*/
+
+#date {
+	font-family: Capture it;
+	font-size: 3vw;
+	padding-bottom: 3%;
+	display: flex;
+    justify-content: center;
+    color:black;
+}
+
+/*bandeau description
+---------------------------------------------------*/
+
+#bandeau_descr{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: rgba(255, 255, 255, 0.6);
+	margin-bottom: 5%;
+}
+
+#bandeau_descr h1{
+	font-size: 3em;
+}
+
+#bandeau_descr h2{
+	font-size: 2em;
+	text-align: center;
+}
+
+#bandeau_descr p{
+	font-size: 1.3em;
+	text-align: justify;
+}
+
+#titre_bandeau_descr{
+	text-align: center;
+	font-family: Capture it;
+	display: flex;
+    justify-content: center;
+}
+
+#contenu_descr{
+	padding: 0% 7% 0% 7%;
+	display: flex;
+    justify-content: center;
+}
+
+.triptique{
+	padding: 5% 5% 5% 5%;
+	width: 33.33vw;
+}
+
+.triptique_element{
+	padding: 5% 5% 5% 5%;
+	display:flex;
+	justify-content: center;
+}
+.img_triptique_descr img{
+	height: 40%;
+	width: 40%;
+	margin-right: auto;
+  	margin-left: auto;
+}
+
+
+/*bandeau sponsors
+---------------------------------------------------*/
+#bandeau_sponsors_accueil{
+	padding: 5% 10% 5% 10%;
+	background-color: white;
+	text-align: center;
+	color: black;
+}
+
+#bandeau_sponsors_accueil img{
+	padding: 5% 20% 5% 20%;
+}
+
+#titre_info{
+	text-align: center;
+	font-family: Capture it;
+	font-size: 3em;
+}
+
+#sponsor_princ_accueil img{
+	width: auto;
+}
+
+#sponsor_sec_accueil{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sponsor_sec_accueil img{
+	width: 25vw;
+}
+
+#sponsor_ter_acceuil{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#sponsor_ter_acceuil img{
+	width: 15vw;
+}
+
+/*===================================================================/
+/========================== EPREUVES ================================/
+/===================================================================*/
+
+#page_epreuves{
+	margin-top: 10%;
+	margin-right: 5%;
+	margin-left: 5%;
+	display: flex;
+}
+
+#descr_des_epreuves{
+	width: 80%;
+}
+
+/* colonne de gauche, <nav> */
+
+#nav_epreuves{
+	width:20%;
+	background-image: url(../../library/img/epreuves/background.jpg);
+	border-radius: 4em;
+	padding-top: 5vh;
+	padding-bottom: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#depart_vide{
+	height: 10vh;
+	width: 100%;
+}
+
+.img_nav_epreuve{
+	height: 10vh;
+	width: 10vh;
+	background-color: orange;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.img_nav_epreuve img{
+	height: 8vh;
+}
+
+.img_nav_chemin{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20vh;
+}
+
+.img_nav_chemin img{
+	height: 20vh;
+	width: auto;
+	overflow-x: hidden;
+}
+
+/*colonne de droite, corps de la page*/
+.conteneur_epreuves{
+	width: 80%;
+	height: 26vh;
+	margin-top: 4vh;
+	padding-left:5vw;
+	display:flex;
+	border-radius: 200px;
+}
+#titre_epreuves{
+	font-family: Capture it;
+	font-size: 3em;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height: 30vh;
+	margin-top: 5vh;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+/*image de droite*/
+
+.conteneur_epreuves_img{
+	width: 30%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom-right-radius: 2em;
+	border-top-right-radius: 2em;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.conteneur_img_velo{
+	background-image: linear-gradient(to right, orange, rgb(255, 255, 255, 0.30)),url('/library/img/epreuves/photo_velo.png');
+}
+
+.conteneur_img_surprise{
+	background-image: linear-gradient(to right, orange, rgb(255, 255, 255, 0.30)),url('/library/img/epreuves/photo_surprise.png');
+}
+
+.conteneur_img_course{
+	background-image: linear-gradient(to right, orange, rgb(255, 255, 255, 0.30)),url('/library/img/epreuves/photo_course.png');
+}
+
+.conteneur_img_CO{
+	background-image: linear-gradient(to right, orange, rgb(255, 255, 255, 0.30)),url('/library/img/epreuves/photo_CO.png');
+}
+
+.conteneur_img_runbike{
+	background-image: linear-gradient(to right, orange, rgb(255, 255, 255, 0.30)),url('/library/img/epreuves/photo_runbike.png');
+}
+
+.conteneur_img_roller{
+	background-image: linear-gradient(to right, orange, rgb(255, 255, 255, 0.30)),url('/library/img/epreuves/photo_roller.png');
+}
+
+.conteneur_img_kayak{
+	background-image: linear-gradient(to right, orange, rgb(255, 255, 255, 0.30)),url('/library/img/epreuves/photo_kayak.png');
+}
+
+.conteneur_epreuves_img p{
+	font-size: 3em;
+	font-family: Capture it;
+	color: black;
+	transform: rotate(-45deg);
+}
+
+.conteneur_img_runbike p{
+	font-size: 2em;
+}
+
+/*descritpion de l'epreuve*/
+
+.descr_epreuve{
+	width: 70%;
+	height: 100%;
+	border-top-left-radius: 2em;
+	border-bottom-left-radius: 2em;
+	background-color: orange;
+}
+
+.ligne_tableau{
+	height: 25%;
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+	border-radius: 1em;
+}
+
+.titre_tableau{
+	height: 40%;
+	padding-top: 2.5%;
+}
+
+.denivele{
+	margin-bottom: 2.5%;
+}
+
+.case_tableau{
+	width: 33.33%;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 1em;
+	background-color: rgb(204, 204, 204);
+	padding-bottom: 2.5%;
+}
+
+.titre_tableau .case_tableau{
+	justify-content: flex-end;
+	padding-top: 2.5%;
+}
+
+.case_tableau img{
+	height:80%;
+	width:auto;
+}
+.case_tableau p{
+	margin-top: 5%;
+	margin-bottom: 0;
+}
+
+.titre_tableau .vide{
+	background-color:  transparent;
+}
+
+.titre_tableau .diff_expert{
+	border-top-left-radius: 1em
+}
+
+.titre_tableau .diff_aventure{
+	border-top-right-radius: 1em
+}
+
+.distance .num-1{
+	border-top-left-radius: 1em;
+}
+
+.denivele .num-1{
+	border-bottom-left-radius: 1em;
+}
+
+.denivele .num-3{
+	border-bottom-right-radius: 1em;
+}
+
+.denivele{
+	box-shadow: 20px 20px 20px black;
+}
+
+.distance .num-3, .titre_tableau .diff_aventure{
+	box-shadow: 20px 20px 20px black;
+}
