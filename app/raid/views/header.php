@@ -4,8 +4,8 @@
 		<div class="le_raid_icam conteneur">
 			<h1>Le Raid Icam</h1>
 			<div class="menu_deroulant">	
-				<a style="text-decoration: none;color:white;" href="../controllers/header_to_epreuves.php"><nav>Les epreuves</nav></a>
-				<a style="text-decoration: none;color:white;" href="../controllers/header_to_info.php"><nav>Information pratiques</nav></a>
+				<a style="text-decoration: none;color:white;" href="epreuves.php"><nav>Les epreuves</nav></a>
+				<a style="text-decoration: none;color:white;" href="info_pratiques.php"><nav>Information pratiques</nav></a>
 			</div>
 		</div>
 		<div class="inscription conteneur">

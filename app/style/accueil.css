@@ -1,0 +1,151 @@
+/*===================================================================/
+/========================== ACCUEIL RAID ============================/
+/===================================================================*/
+
+
+/* CAROUSEL
+-------------------------------------------------- */
+
+
+#carousel{
+	padding-top:15vh;
+	padding-left:15%;
+	padding-right:15%;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.carousel{
+	width: 20vw;
+}
+.rounded {
+  border-radius: 1rem !important;
+}
+
+.text_carousel{
+	position: absolute;
+	z-index: 1;
+	height: 100%;
+	opacity: 0.5;
+}
+
+.carousel-inner:hover{
+
+	box-shadow: 0px 0px 10px 8px #ffffff;
+}
+.text_carousel:hover{
+	opacity: 1;
+}
+
+/* CARRE CLIQUABLE
+---------------------------------------------------*/
+
+#carre_cliquable{
+	padding-top:5%;
+	padding-left:15%;
+	padding-right:15%;
+	padding-bottom:10%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.carre_info{
+    background-image:url(../../library/img/accueil/fond_carre_info.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    width: 20vw;
+    height: auto; 
+    min-height:150%;
+    max-height:15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.carre_info:hover {
+
+	box-shadow: 0px 0px 10px 8px #ffffff;
+	font-size:120%;
+}
+
+.contenu_info{
+	margin-left: 10%;
+	margin-right: 10%;
+    font-family: Capture it; 
+    font-size: 2vw;
+	color: black;
+	text-align: center;
+}
+
+a:link{
+	text-decoration:none;
+}
+
+/*date
+---------------------------------------------------*/
+
+#date {
+	font-family: Capture it;
+	font-size: 3vw;
+	padding-bottom: 3%;
+	display: flex;
+    justify-content: center;
+    color:black;
+}
+
+/*bandeau description
+---------------------------------------------------*/
+
+#bandeau_descr{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: rgba(255, 255, 255, 0.6);
+	margin-bottom: 5%;
+}
+
+#bandeau_descr h1{
+	font-size: 3em;
+}
+
+#bandeau_descr h2{
+	font-size: 2em;
+	text-align: center;
+}
+
+#bandeau_descr p{
+	font-size: 1.3em;
+	text-align: justify;
+}
+
+#titre_bandeau_descr{
+	text-align: center;
+	font-family: Capture it;
+	display: flex;
+    justify-content: center;
+}
+
+#contenu_descr{
+	padding: 0% 7% 0% 7%;
+	display: flex;
+    justify-content: center;
+}
+
+.triptique{
+	padding: 5% 5% 5% 5%;
+	width: 33.33vw;
+}
+
+.triptique_element{
+	padding: 5% 5% 5% 5%;
+	display:flex;
+	justify-content: center;
+}
+.img_triptique_descr img{
+	height: 40%;
+	width: 40%;
+	margin-right: auto;
+  	margin-left: auto;
+}

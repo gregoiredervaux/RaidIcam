@@ -3,37 +3,71 @@
 /===================================================================*/
 
 #page_epreuves{
+	padding-top: 10%;
+	margin-right: 5%;
+	margin-left: 5%;
 	display: flex;
-}
-
-/* colonne de gauche, <nav> */
-
-#nav_epreuves{
-	width:20%;
 }
 
 #descr_des_epreuves{
 	width: 80%;
 }
 
-.nav_epreuves_box{
-	height: 30vh;
+/* colonne de gauche, <nav> */
+
+#nav_epreuves{
+	width:20%;
+	background: url(../../library/img/epreuves/background.jpg); repeat;
+	border-radius: 4em;
+	padding-top: 5vh;
+	padding-bottom: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#depart_vide{
+	height: 10vh;
+	width: 100%;
+}
+
+.img_nav_epreuve{
+	height: 10vh;
+	width: 10vh;
+	background-color: orange;
+	border-radius: 50%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.nav_epreuves_box img{
-	width: 7vh;
-	height: auto;
+.img_nav_epreuve img{
+	height: 8vh;
 }
+
+.img_nav_chemin{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20vh;
+}
+
+.img_nav_chemin img{
+	height: 20vh;
+	width: auto;
+	overflow-x: hidden;
+}
+
 /*colonne de droite, corps de la page*/
-
-.conteneur_descr_epreuves{
+.conteneur_epreuves{
 	width: 80%;
-	height: 30vh;
+	height: 26vh;
+	margin-top: 4vh;
+	padding-left:5vw;
+	display:flex;
+	border-radius: 200px;
 }
-
 #titre_epreuves{
 	font-family: Capture it;
 	font-size: 3em;
@@ -41,30 +75,145 @@
 	justify-content: center;
 	align-items: center;
 	height: 30vh;
+	margin-top: 5vh;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
-.descr_epreuve{
-	width: 70%;
-	height: 100%;
-}
+/*image de droite*/
 
 .conteneur_epreuves_img{
 	width: 30%;
 	height: 100%;
 	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom-right-radius: 2em;
+	border-top-right-radius: 2em;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.conteneur_img_velo{
+	background-image: linear-gradient(to right, orange, rgb(255, 255, 255, 0.30)),url('/library/img/epreuves/photo_velo.png');
+}
+
+.conteneur_img_surprise{
+	background-image: linear-gradient(to right, orange, rgb(255, 255, 255, 0.30)),url('/library/img/epreuves/photo_surprise.png');
+}
+
+.conteneur_img_course{
+	background-image: linear-gradient(to right, orange, rgb(255, 255, 255, 0.30)),url('/library/img/epreuves/photo_course.png');
+}
+
+.conteneur_img_CO{
+	background-image: linear-gradient(to right, orange, rgb(255, 255, 255, 0.30)),url('/library/img/epreuves/photo_CO.png');
+}
+
+.conteneur_img_runbike{
+	background-image: linear-gradient(to right, orange, rgb(255, 255, 255, 0.30)),url('/library/img/epreuves/photo_runbike.png');
+}
+
+.conteneur_img_roller{
+	background-image: linear-gradient(to right, orange, rgb(255, 255, 255, 0.30)),url('/library/img/epreuves/photo_roller.png');
+}
+
+.conteneur_img_kayak{
+	background-image: linear-gradient(to right, orange, rgb(255, 255, 255, 0.30)),url('/library/img/epreuves/photo_kayak.png');
+}
+
+.conteneur_epreuves_img p{
+	font-size: 3em;
+	font-family: Capture it;
+	color: black;
+	transform: rotate(-45deg);
+}
+
+.conteneur_img_runbike p{
+	font-size: 2em;
+}
+
+/*descritpion de l'epreuve*/
+
+.descr_epreuve{
+	width: 70%;
+	height: 100%;
+	border-top-left-radius: 2em;
+	border-bottom-left-radius: 2em;
+	background-color: orange;
 }
 
 .ligne_tableau{
-	width: 90%;
-	height: 10vh;
+	height: 25%;
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+	border-radius: 1em;
 }
 
-.colonne_tableau{
+.titre_tableau{
+	height: 40%;
+	padding-top: 2.5%;
+}
+
+.denivele{
+	margin-bottom: 2.5%;
+}
+
+.case_tableau{
 	width: 33.33%;
-	height: 100%;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 1em;
+	background-color: rgb(204, 204, 204);
+	padding-bottom: 2.5%;
 }
 
-.img_tableau{
-	height:100%;
+.titre_tableau .case_tableau{
+	justify-content: flex-end;
+	padding-top: 2.5%;
+}
+
+.case_tableau img{
+	height:80%;
 	width:auto;
+}
+.case_tableau p{
+	margin-top: 5%;
+	margin-bottom: 0;
+}
+
+.titre_tableau .vide{
+	background-color:  transparent;
+}
+
+.titre_tableau .diff_expert{
+	border-top-left-radius: 1em
+}
+
+.titre_tableau .diff_aventure{
+	border-top-right-radius: 1em
+}
+
+.distance .num-1{
+	border-top-left-radius: 1em;
+}
+
+.denivele .num-1{
+	border-bottom-left-radius: 1em;
+}
+
+.denivele .num-3{
+	border-bottom-right-radius: 1em;
+}
+
+.denivele{
+	box-shadow: 20px 20px 20px black;
+}
+
+.distance .num-3, .titre_tableau .diff_aventure{
+	box-shadow: 20px 20px 20px black;
 }
