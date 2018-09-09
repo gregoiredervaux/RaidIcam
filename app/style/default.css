@@ -94,8 +94,162 @@ header img{
 	font-size: 1vw;
 }
 
-/*bandeau sponsors
----------------------------------------------------*/
+
+/*===================================================================/
+/========================== FOOTER ==================================/
+/===================================================================*/
+
+footer{
+	float: left;
+	width:100%; /*largeur du bloc*/
+	margin:0 auto; /*marge externe nul avec centrage auto*/
+	padding-top:5%; /*marge interne nul*/
+	z-index: 20;
+	background-color: black;
+	color: white;
+}
+#up{
+	font-size: 23px;
+	background: url(../image/bg_footer.png) center center no no-repeat;
+	width: 100%;
+	margin: 0 auto;
+}
+#up ul{
+	padding:5px 0 0 0;
+	margin: 0;
+}
+#up ul li {
+	list-style: none;
+	line-height: 35px;
+	border-top: 1px solid #737373;
+}
+#up ul li.dernier {
+	border-bottom: 1px solid #737373;
+}
+#up ul li a {
+	font-size: 12px;
+	text-decoration: none;
+	color: #737373;
+}
+#element{
+	margin: 0 auto;
+}
+@media (min-width: 960px){
+	#element{
+		width: 100%;
+		height: 183px;
+		margin: 0 auto;
+	}
+}
+#contact{
+	width: 200px;
+	margin:0 auto;
+	padding-top: 27px;
+}
+@media (min-width: 960px){
+	#contact{
+		float: left;
+		height: 183px;
+		width: 23%;
+		margin-left: 20%;
+		padding-top: 27px;
+	}
+}
+#contact ul.num{
+	
+	width: 200px;
+	font-size: 12px;
+	color: #737373
+}
+#contact ul.num img{
+	margin-right: 10px;
+}
+#adress{
+	width: 200px;
+	margin: 0 auto;
+	padding-top: 27px;
+}
+@media (min-width: 960px){
+	#adress{
+		float: left;
+		height: 183px;
+		width: 23%;
+		padding-top: 27px;
+	}
+}
+#adress ul {
+	width: 200px;
+	font-size: 12px;
+	color: #737373;
+}
+#follow{
+	width: 200px;
+	margin:0 auto;
+	padding-top: 27px;
+	padding-bottom: 27px;
+}
+@media (min-width: 960px){
+	#follow{
+		float: left;
+		height: 183px;
+		width: 23%;
+		padding-top: 27px;
+		padding-bottom: 0;
+	}
+}
+#follow ul.reseau{
+	width: 200px;
+	font-size: 12px;
+}
+#follow ul.reseau form{
+	width: 200px;
+	height: 35px;
+	padding-top: 7px;
+}
+#follow ul.reseau img{
+	margin-right: 10px;
+}
+#down{
+	color: #737373;
+	font-size: 10px;
+	text-align: center;
+	width: 320px;
+	height: 120px;
+	margin: 0 auto;
+}
+#down a{
+	text-decoration: underline;
+	color: white
+
+}
+#down #copyright {
+	float: left;
+	margin: 0 auto;
+	width: 255px;
+	height: 120px;
+	padding-top: 23px;
+	color: #737373;
+	font-size: 11px;
+}
+#down #logomono {
+	background: url(../image/logo_footer.png) no no-repeat;
+	float: left;
+	margin: 0 auto;
+	width: 65px;
+	height:120px;
+}
+#down span{
+	color: white;
+	text-decoration: underline;
+}
+
+
+
+
+/*===================================================================/
+/====================== BANDEAU SPONSOR =============================/
+/===================================================================*/
+
 #bandeau_sponsors_accueil{
 	padding: 5% 10% 5% 10%;
 	background-color: white;
@@ -190,3 +344,4 @@ img[class="icon small"]{
 	margin-left: 10px;
 	margin-right: 10px;
 }
+

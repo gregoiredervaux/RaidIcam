@@ -1,3 +1,6 @@
+/*partie haute de la page*/
+
+
 .background {
 	position:absolute;
 	z-index: 1;
@@ -6,6 +9,12 @@
 	height: 100%;
 	top: 0;
 	left: 0;
+}
+
+.background img{
+	display:flex;
+	width: 100%;
+	height: 100%;
 }
 
 #casque{
@@ -23,16 +32,6 @@
 	height:auto;
 }
 
-#cache{
-	background-color:black;
-	position:absolute;
-	z-index:3;
-	top:100%;
-	left:0;
-	height: 40vh;
-	width: 100%;
-
-}
 
 #corps{
 	position: absolute;
@@ -55,16 +54,21 @@
 	height: 50%;
 	background-color:rgba(255, 165, 0,0);
 	border-radius: 3em;
+	min-height: 55vh;
 }
 
 
 .explication{
-	margin-top: 5%;
-	margin-bottom: 5%;
+	margin:5%;
 	color:transparent;
 	font-size: 2em;
 	font-family: Capture it;
 	text-align: center;
+}
+
+.column a{
+	background-color: orange;
+	border-radius: 50%;
 }
 
 .container{
@@ -80,6 +84,79 @@
 .container img{
 	width: 15vw;
 	height: 15vw;
+	border-radius: 50%;
+}
+
+.transparent{
+	opacity: 0;
+}
+
+#trail .container{
+	background-image:url('/library/img/trail.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#raid .container{
+	background-image:url('/library/img/raid.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+
 }
 
 
+/*partie basse de la page descr de l'assos*/
+
+#cache{
+	background-color:black;
+	position:absolute;
+	z-index:3;
+	top:100%;
+	left:0;
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	color:white;
+}
+
+.ligne_info{
+	display:flex;
+	align-items: center;
+	margin-top: 5%;
+}
+
+.ligne_info .container{
+	background-color:white;
+}
+
+.ligne_info h2{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.contenu_assos{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.contenu_assos h2{
+	font-family: segoeui;
+	font-size: 1.5em;
+}
+
+.container_equipe{
+	border-radius: 5em;
+	background-color: white;
+	display:flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	max-width: 70%;
+	min-width: 50%;
+}
+
+.container_equipe img{
+	height: 30vh;
+	width: auto;
+	border-radius: 1.5em;
+}
