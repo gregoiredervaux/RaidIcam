@@ -19,5 +19,5 @@ foreach ($ls_sponsor as $num_part => $ls_valeur)
 
 var_dump($_SESSION['sponsor']);
 
-header('Location: ../views/accueil.php')
+header('Location: ../../views/raid/accueil.php')
 ?>
