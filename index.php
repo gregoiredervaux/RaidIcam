@@ -43,62 +43,121 @@
 		<h1>L'équipe 2018</h1>
 		<div class="ligne_info">
 			<div class="container_equipe">
-				<img src="/library/img/Membres/2018/GHESQUIERES_aurelie.png">
-				<img src="/library/img/Membres/2018/SAUER_clementine.png">
-				<img src="/library/img/Membres/2018/DERVAUX_gregoire.png">
-				<img src="/library/img/Membres/2018/JORDAN_lea.png">
+				<div class="container_img">
+					<img src="/library/img/Membres/2018/GHESQUIERES_aurelie.png">
+					<p class="nom">Aurélie Ghesquière<br>
+									Leader suprême</p>
+				</div>
+				<div class="container_img">
+					<img src="/library/img/Membres/2018/SAUER_clementine.png">
+					<p class="nom">Clémentine Sauer<br>
+									Stagiaire</p>
+				</div>
+				<div class="container_img">
+					<img src="/library/img/Membres/2018/DERVAUX_gregoire.png">
+					<p class="nom">Grégoire Dervaux<br>
+									Trésorier, Informaticiens et plus bel homme au monde</p>
+				</div>
+				<div class="container_img">
+					<img src="/library/img/Membres/2018/JORDAN_lea.png">
+					<p class="nom">Léa Jordan<br>
+									AKA les cuisses de béton</p>
+				</div>
 			</div>
 			<h2>Les mains de fer dans des gants de velour, les catalyseurs, les faiseurs de miracle, j'ai nommé ... <strong>La direction !</strong></h2>
 		</div>
 		<div class="ligne_info">
 			<h2>Les demarcheurs de l'extrème, les artistes, les pros du photomontage, j'ai nommé <strong>Le pôle Com !</strong></h2>
 			<div class="container_equipe">
-				<img src="/library/img/Membres/2018/BERLIN_pauline.png" alt="pauline berlin" />
-				<img src="/library/img/Membres/2018/BOURNONVILLE_louis.png" alt="louis bournonville" />
-				<img src="/library/img/Membres/2018/MAURICE_henri.png" alt="henri maurice" />
-				<img src="/library/img/Membres/2018/BOUVATTIER_cyriaque.png" alt="cyriaque bouvattier" />
-				<img src="/library/img/Membres/2018/BLANCHARD_lili.png" alt="lili blanchard" />
+				<div class="container_img">
+					<img src="/library/img/Membres/2018/BERLIN_pauline.png" alt="pauline berlin" />
+				</div>
+				<div class="container_img">
+					<img src="/library/img/Membres/2018/BOURNONVILLE_louis.png" alt="louis bournonville" />
+				</div>
+				<div class="container_img">
+					<img src="/library/img/Membres/2018/MAURICE_henri.png" alt="henri maurice" />
+				</div>
+				<div class="container_img">
+					<img src="/library/img/Membres/2018/BOUVATTIER_cyriaque.png" alt="cyriaque bouvattier" />
+				</div>
+				<div class="container_img">
+					<img src="/library/img/Membres/2018/BLANCHARD_lili.png" alt="lili blanchard" />
+				</div>
 			</div>
 		</div>
 		<div class="ligne_info">
 			<div class="container_equipe">
-				<img src="/library/img/Membres/2018/BECQUART_pierre.png" alt="pierre Becquart" />
-				<img src="/library/img/Membres/2018/LEMAIRE_valentin.png" alt="valentin lemaire" />
-				<img src="/library/img/Membres/2018/MOTTE_louis.png" alt="louis motte" />
-				<img src="/library/img/Membres/2018/DESOUTTER_jean.png" alt="jean desoutter" />
-				<img src="/library/img/Membres/2018/BRAME_timothe.png" alt="timothee brame" />
-				<img src="/library/img/Membres/2018/LECLERCQ_julien.png" alt="julien leclercq" />
-				<img src="/library/img/Membres/2018/LAMBERT_louis.png" alt="louis lambert" />
-				<img src="/library/img/Membres/2018/GIGANDET_emile.png" alt="emile gigandet" />
-				<img src="/library/img/Membres/2018/BOULANGE_augustin.png" alt="augustin boulange" />
+				<div class="container_img">
+					<img src="/library/img/Membres/2018/BECQUART_pierre.png" alt="pierre Becquart" />
+				</div>
+				<div class="container_img">
+					<img src="/library/img/Membres/2018/LEMAIRE_valentin.png" alt="valentin lemaire" />
+				</div>
+				<div class="container_img">
+					<img src="/library/img/Membres/2018/MOTTE_louis.png" alt="louis motte" />
+				</div>
+				<div class="container_img">
+					<img src="/library/img/Membres/2018/DESOUTTER_jean.png" alt="jean desoutter" />
+				</div>
+				<div class="container_img">
+					<img src="/library/img/Membres/2018/BRAME_timothe.png" alt="timothee brame" />
+				</div>
+				<div class="container_img">
+					<img src="/library/img/Membres/2018/LECLERCQ_julien.png" alt="julien leclercq" />
+				</div>
+				<div class="container_img">
+					<img src="/library/img/Membres/2018/LAMBERT_louis.png" alt="louis lambert" />
+				</div>
+				<div class="container_img">
+					<img src="/library/img/Membres/2018/GIGANDET_emile.png" alt="emile gigandet" />
+				</div>
+				<div class="container_img">
+					<img src="/library/img/Membres/2018/BOULANGE_augustin.png" alt="augustin boulange" />
+				</div>
 			</div>
 			<h2>Les cuisses de béton, les explorateurs, les marins d'eaux douces, les seuls personnes classes avec un collant, j'ai nommé.. <strong>Le pôle Sport !</strong></h2>
 		</div>
 		<div class="ligne_info">
 			<h2>Les plannificateurs, les rois du calendrier, ceux pour qui rien n'est impossible j'ai nommé...<strong>Le pôle Log !</strong></h2>
 			<div class="container_equipe">
-				<img src="/library/img/Membres/2018/POLLET_bastien.png" alt="bastien pollet" />
-				<img src="/library/img/Membres/2018/DEMESTRE_arnaud.png" alt="arnaud demestre" />
-				<img src="/library/img/Membres/2018/LEJEUNE_capucine.png" alt="capucine lejeune" />
-				<img src="/library/img/Membres/2018/WATEL_audrey.png" alt="Audrey Watel" />
-
+				<div class="container_img">
+					<img src="/library/img/Membres/2018/POLLET_bastien.png" alt="bastien pollet" />
+				</div>
+				<div class="container_img">
+					<img src="/library/img/Membres/2018/DEMESTRE_arnaud.png" alt="arnaud demestre" />
+				</div>
+				<div class="container_img">
+					<img src="/library/img/Membres/2018/LEJEUNE_capucine.png" alt="capucine lejeune" />
+				</div>
+				<div class="container_img">
+					<img src="/library/img/Membres/2018/WATEL_audrey.png" alt="Audrey Watel" />
+				</div>
 			</div>
 		</div>
 		<div class="ligne_info">
 			<div class="container_equipe">
-				<img src="/library/img/Membres/2018/VANBREMERSH_tanguy.png" alt="tanguy vanbremersh" />
-				<img src="/library/img/Membres/2018/BOUDAILLIEZ_antoine.png" alt="Antoine Boudailliez" />
+				<div class="container_img">
+					<img src="/library/img/Membres/2018/VANBREMERSH_tanguy.png" alt="tanguy vanbremersh" />
+				</div>
+				<div class="container_img">
+					<img src="/library/img/Membres/2018/BOUDAILLIEZ_antoine.png" alt="Antoine Boudailliez" />
+				</div>
 			</div>
 			<h2>Les chevaliers de l'ombre, Les baliseurs infatigables, notre seul espoire quand tout va mal, j'ai nommé... <strong>Le Pôle sécu !</strong></h2>
 		</div>
 		<div class="ligne_info">
 			<h2>Et enfin les plus important, ceux qui vont faire que ce week end sera exeptionnel, la crème de la crème, les véritables chefs de ce Raid Icam ... <strong>Le Pole ravito !</strong></h2>
 			<div class="container_equipe">
-				<img src="/library/img/Membres/2018/MOREAU_ingrid.png" alt="ingrid moreau" />
-				<img src="/library/img/Membres/2018/MOLET_emile.png" alt="emile Molet" />
+				<div class="container_img">
+					<img src="/library/img/Membres/2018/MOREAU_ingrid.png" alt="ingrid moreau" />
+				</div>
+				<div class="container_img">
+					<img src="/library/img/Membres/2018/MOLET_emile.png" alt="emile Molet" />
+				</div>
 			</div>
 		</div>
-	<?php include("app/views/footer.php");?>
+		<?php include("app/views/footer.php");?>
 	</div>
 	<div id="corps" onmousemove="changement_angle(event)">
 		<section class="column" id="trail">

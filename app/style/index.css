@@ -156,7 +156,23 @@
 }
 
 .container_equipe img{
-	height: 30vh;
-	width: auto;
+	height: auto;
+	width: 24vH;
 	border-radius: 1.5em;
+}
+
+.container_img{
+	color:black;
+	display:flex;
+	text-align: center;
+	flex-direction: column;
+	align-items: center;
+	font-size:1.2em;
+	font-family: segouei;
+}
+
+.container_img p{
+	line-height: 140%;
+	padding-right: 5%;
+	padding-left:5%;
 }
