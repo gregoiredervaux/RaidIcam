@@ -20,7 +20,6 @@
 			flex-direction: column;
 			height: 100vh;
 			background-color: rgba(255, 165, 0, 0.5);
-			filter: alpha(opacity=30);
 			color:white;
 		}
 		h1{
