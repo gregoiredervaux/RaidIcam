@@ -1,0 +1,39 @@
+#titre_principale{
+	height: 50vh;
+	width: 100%;
+	background: url('/library/img/info_pratiques/info_pratiques.png') no-repeat center center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#titre_principale h1{
+	font-size: 3em;
+	font-family: segoeui;
+	color:white;
+	text-shadow: 2px 2px 3px #000;
+}
+
+#logo_trail{
+	height: 10vh;
+	width: auto;
+}
+
+section[id="descr"]{
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top:5%;
+	margin-bottom:5%;
+	margin-left:10%;
+	margin-right:10%;
+	padding:5%;
+	background-color: white;
+	border-radius: 4em;
+	box-shadow: 10px 10px 10px 10px;
+}
+
+
