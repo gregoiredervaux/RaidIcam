@@ -40,28 +40,28 @@
 				<img src="/library/img/icons/document.png">
 			</div>
 		</div>
-		<h1>L'équipe 2018</h1>
+		<h1>L'équipe 2019</h1>
 		<div class="ligne_info">
 			<div class="container_equipe">
 				<div class="container_img">
-					<img src="/library/img/Membres/2018/GHESQUIERES_aurelie.png">
-					<p class="nom">Aurélie Ghesquière<br>
+					<img src="/library/img/Membres/2019/clementine_sauer.png">
+					<p class="nom">Clémentine Sauer<br>
 									Leader suprême</p>
 				</div>
 				<div class="container_img">
-					<img src="/library/img/Membres/2018/SAUER_clementine.png">
-					<p class="nom">Clémentine Sauer<br>
+					<img src="/library/img/Membres/2019/henri_maurice.png">
+					<p class="nom">Henri Maurice<br>
 									Stagiaire</p>
 				</div>
 				<div class="container_img">
-					<img src="/library/img/Membres/2018/DERVAUX_gregoire.png">
-					<p class="nom">Grégoire Dervaux<br>
-									Trésorier, Informaticiens et plus bel homme au monde</p>
+					<img src="/library/img/Membres/2019/florent_baron.png">
+					<p class="nom">Florent Baron<br>
+									Picsous</p>
 				</div>
 				<div class="container_img">
-					<img src="/library/img/Membres/2018/JORDAN_lea.png">
-					<p class="nom">Léa Jordan<br>
-									AKA les cuisses de béton</p>
+					<img src="/library/img/Membres/2019/tanguy_vanbremeersch.png">
+					<p class="nom">Tanguy Vanbremeersch<br>
+									Riri</p>
 				</div>
 			</div>
 			<h2>Les mains de fer dans des gants de velour, les catalyseurs, les faiseurs de miracle, j'ai nommé ... <strong>La direction !</strong></h2>
@@ -70,50 +70,68 @@
 			<h2>Les demarcheurs de l'extrème, les artistes, les pros du photomontage, j'ai nommé <strong>Le pôle Com !</strong></h2>
 			<div class="container_equipe">
 				<div class="container_img">
-					<img src="/library/img/Membres/2018/BERLIN_pauline.png" alt="pauline berlin" />
+					<img src="/library/img/Membres/2019/lucie_hay.png" alt="lucie hay" />
+					<p class="nom">Lucie Hay</p>
 				</div>
 				<div class="container_img">
-					<img src="/library/img/Membres/2018/BOURNONVILLE_louis.png" alt="louis bournonville" />
+					<img src="/library/img/Membres/2019/vincent_gorisse.png" alt="vincent gorisse" />
+					<p class="nom">Vincent Gorisse</p>
 				</div>
 				<div class="container_img">
-					<img src="/library/img/Membres/2018/MAURICE_henri.png" alt="henri maurice" />
+					<img src="/library/img/Membres/2019/marie-amelie_gaide.png" alt="marie-amelie_gaide" />
+					<p class="nom">Marie-Amélie Gaide</p>
 				</div>
 				<div class="container_img">
-					<img src="/library/img/Membres/2018/BOUVATTIER_cyriaque.png" alt="cyriaque bouvattier" />
+					<img src="/library/img/Membres/2019/victor_desurmont.png" alt="victor_desurmont" />
+					<p class="nom">Victor Desurmont</p>
 				</div>
 				<div class="container_img">
-					<img src="/library/img/Membres/2018/BLANCHARD_lili.png" alt="lili blanchard" />
+					<img src="/library/img/Membres/2019/teo_di-lenarda.png" alt="teo_di-lenarda" />
+					<p class="nom">Téo Di-Lenarda</p>
+				</div>
+				<div class="container_img">
+					<img src="/library/img/Membres/2019/louis_leblanc.png" alt="louis_leblanc" />
+					<p class="nom">Louis Leblanc</p>
 				</div>
 			</div>
 		</div>
 		<div class="ligne_info">
 			<div class="container_equipe">
 				<div class="container_img">
-					<img src="/library/img/Membres/2018/BECQUART_pierre.png" alt="pierre Becquart" />
+					<img src="/library/img/Membres/2019/pierre_becquart.png" alt="pierre Becquart" />
+					<p class="nom">Pierre Becquart</p>
 				</div>
 				<div class="container_img">
-					<img src="/library/img/Membres/2018/LEMAIRE_valentin.png" alt="valentin lemaire" />
+					<img src="/library/img/Membres/2019/louis_lambert.png" alt="louis_lambert" />
+					<p class="nom">Louis Lambert</p>
 				</div>
 				<div class="container_img">
-					<img src="/library/img/Membres/2018/MOTTE_louis.png" alt="louis motte" />
+					<img src="/library/img/Membres/2019/louis_motte.png" alt="louis motte" />
+					<p class="nom">louis Motte</p>
 				</div>
 				<div class="container_img">
-					<img src="/library/img/Membres/2018/DESOUTTER_jean.png" alt="jean desoutter" />
+					<img src="/library/img/Membres/2019/augustin_boulange.png" alt="augustin boulange" />
+					<p class="nom">Augustin Boulangé</p>
 				</div>
 				<div class="container_img">
-					<img src="/library/img/Membres/2018/BRAME_timothe.png" alt="timothee brame" />
+					<img src="/library/img/Membres/2019/julien_leclercq.png" alt="julien_leclercq" />
+					<p class="nom">Julien Leclercq</p>
 				</div>
 				<div class="container_img">
-					<img src="/library/img/Membres/2018/LECLERCQ_julien.png" alt="julien leclercq" />
+					<img src="/library/img/Membres/2019/vincent_delepouve.png" alt="vincent_delepouve" />
+					<p class="nom">Vincent Delepouve</p>
 				</div>
 				<div class="container_img">
-					<img src="/library/img/Membres/2018/LAMBERT_louis.png" alt="louis lambert" />
+					<img src="/library/img/Membres/2019/xavier_fretin.png" alt="xavier fretin" />
+					<p class="nom">Xavier Fretin</p>
 				</div>
 				<div class="container_img">
-					<img src="/library/img/Membres/2018/GIGANDET_emile.png" alt="emile gigandet" />
+					<img src="/library/img/Membres/2019/joseph_morillon.png" alt="joseph morillon" />
+					<p class="nom">Joseph Morillon</p>
 				</div>
 				<div class="container_img">
-					<img src="/library/img/Membres/2018/BOULANGE_augustin.png" alt="augustin boulange" />
+					<img src="/library/img/Membres/2019/francois_delaporte.png" alt="francois delaporte" />
+					<p class="nom">François Delaporte</p>
 				</div>
 			</div>
 			<h2>Les cuisses de béton, les explorateurs, les marins d'eaux douces, les seuls personnes classes avec un collant, j'ai nommé.. <strong>Le pôle Sport !</strong></h2>
@@ -122,26 +140,36 @@
 			<h2>Les plannificateurs, les rois du calendrier, ceux pour qui rien n'est impossible j'ai nommé...<strong>Le pôle Log !</strong></h2>
 			<div class="container_equipe">
 				<div class="container_img">
-					<img src="/library/img/Membres/2018/POLLET_bastien.png" alt="bastien pollet" />
+					<img src="/library/img/Membres/2019/bastien_pollet.png" alt="bastien pollet" />
+					<p class="nom">Bastien Pollet</p>
 				</div>
 				<div class="container_img">
-					<img src="/library/img/Membres/2018/DEMESTRE_arnaud.png" alt="arnaud demestre" />
+					<img src="/library/img/Membres/2019/ludovic_ovigneur.png" alt="ludovic ovigneur" />
+					<p class="nom">Ludovic Ovigneur</p>
 				</div>
 				<div class="container_img">
-					<img src="/library/img/Membres/2018/LEJEUNE_capucine.png" alt="capucine lejeune" />
+					<img src="/library/img/Membres/2019/gaetan_delcroix.png" alt="gaetan_delcroix" />
+					<p class="nom">Gaetan Delcroix</p>
 				</div>
 				<div class="container_img">
-					<img src="/library/img/Membres/2018/WATEL_audrey.png" alt="Audrey Watel" />
+					<img src="/library/img/Membres/2019/charles_stefaniak.png" alt="charles_stefaniak" />
+					<p class="nom">Charles Stefaniak</p>
+				</div>
+				<div class="container_img">
+					<img src="/library/img/Membres/2019/caroline_vandenbulcke.png" alt="caroline vandenbulcke" />
+					<p class="nom">Caroline Vandenbulcke</p>
 				</div>
 			</div>
 		</div>
 		<div class="ligne_info">
 			<div class="container_equipe">
 				<div class="container_img">
-					<img src="/library/img/Membres/2018/VANBREMERSH_tanguy.png" alt="tanguy vanbremersh" />
+					<img src="/library/img/Membres/2019/thomas_van-cutsem.png" alt="thomas van cutsem" />
+					<p class="nom">Thomas Van Cutsem</p>
 				</div>
 				<div class="container_img">
-					<img src="/library/img/Membres/2018/BOUDAILLIEZ_antoine.png" alt="Antoine Boudailliez" />
+					<img src="/library/img/Membres/2019/guillaume_wartelle-hugues.png" alt="guillaume wartelle hugues" />
+					<p class="nom">Guillaume Wartelle-Hugues</p>
 				</div>
 			</div>
 			<h2>Les chevaliers de l'ombre, Les baliseurs infatigables, notre seul espoire quand tout va mal, j'ai nommé... <strong>Le Pôle sécu !</strong></h2>
@@ -150,10 +178,12 @@
 			<h2>Et enfin les plus important, ceux qui vont faire que ce week end sera exeptionnel, la crème de la crème, les véritables chefs de ce Raid Icam ... <strong>Le Pole ravito !</strong></h2>
 			<div class="container_equipe">
 				<div class="container_img">
-					<img src="/library/img/Membres/2018/MOREAU_ingrid.png" alt="ingrid moreau" />
+					<img src="/library/img/Membres/2019/pauline_dumortier.png" alt="pauline_dumortier" />
+					<p class="nom">Pauline Dumortier</p>
 				</div>
 				<div class="container_img">
-					<img src="/library/img/Membres/2018/MOLET_emile.png" alt="emile Molet" />
+					<img src="/library/img/Membres/2019/clemence_fedou.png" alt="clemence fedou" />
+					<p class="nom">Clémence Fedou</p>
 				</div>
 			</div>
 		</div>
@@ -164,7 +194,7 @@
 			<div class="explication explication_trail">
 				C'est court, c'est intense, c'est la tiote foulée !!
 			</div>
-			<a href="app/trail/controllers/index_to_accueil.php">
+			<a href="app/controllers/trail/index_to_accueil.php">
 				<div class="container" onmouseover="aff_contenu('trail')" onmouseout="cacher_contenu('trail')">
 					<img src="/library/img/real_trail.png" class="transparent">
 				</div>
