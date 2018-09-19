@@ -1,3 +1,16 @@
+<?php
+session_start();
+
+require('../../../config.php');
+
+if($settings['maintenance']['raid']['info_pratiques']==1)
+{
+	header('Location: ../../views/maintenance.php');
+}
+?>
+
+
+
 <!DOCTYPE html>
 <html>
 <head>

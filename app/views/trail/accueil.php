@@ -4,6 +4,13 @@ if(empty($_SESSION['sponsor']))
 {
 	header("Location: /");
 }
+
+require('../../../config.php');
+
+if($settings['maintenance']['trail']['accueil']==1)
+{
+	header('Location: ../../views/maintenance.php');
+}
 ?>
 
 <!DOCTYPE html>

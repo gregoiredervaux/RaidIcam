@@ -1,3 +1,14 @@
+<?php
+session_start();
+
+require('../../../config.php');
+
+if($settings['maintenance']['trail']['inscription']==1)
+{
+	header('Location: ../../views/maintenance.php');
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
