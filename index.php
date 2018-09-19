@@ -30,7 +30,7 @@
 		</div>
 		<div class="ligne_info">
 			<div class="contenu_assos gch">
-				<h2>Nos valeures</h2>
+				<h2>Nos valeurs</h2>
 				<p class="descr_titre">
 					Dépassement de soi, travail d'équipe, et convivialité sont les maîtres mots pour faire du Raid ICAM un événement unique qui restera dans vos mémoires.
 					Si nous avons pu devenir l'année dernière une manche du challenge nationnal, le Raid icam est et restera un Raid étudiant. Nous vont offrons une occasion de vous dépasser, et même pour certain de faire tomber les chronos et de rafler la premier place, mais nous vous offrons surtout une chance de passer un très bon moment.
