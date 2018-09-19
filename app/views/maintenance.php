@@ -1,3 +1,7 @@
+<?php
+include '../../config.php';
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,6 +34,8 @@
 </head>
 <body>
 	<h1>Cette section du site n'est pas disponible</h1>
-	<p>si vous pensez qu'il puisse s'agir d'une erreur, alors contactez le raid via <a href="mailto:contact.raidicam@gmail.com">contact.raidicam@gmail.com</a></p>
+	<p>si vous pensez qu'il puisse s'agir d'une erreur, alors contactez le raid via 
+		<a <?php echo('href="mailto'+$settings['email']+'"')?>>
+		cette adresse email</a></p>
 </body>
 </html>
