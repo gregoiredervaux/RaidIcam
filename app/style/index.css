@@ -157,7 +157,7 @@
 
 .container_equipe img{
 	height: auto;
-	width: 24vH;
+	width: 20vH;
 	border-radius: 1.5em;
 }
 
@@ -169,6 +169,7 @@
 	align-items: center;
 	font-size:1.2em;
 	font-family: segouei;
+	margin:3%;
 }
 
 .container_img p{

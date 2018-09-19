@@ -1,3 +1,21 @@
+/*===================================================================/
+/============================= font =================================/
+/===================================================================*/
+
+@font-face {
+	font-family: "Capture it";
+	src: url('/library/font/capture it.ttf');
+}
+
+@font-face {
+	font-family: "segoeuil";
+	src: url('/library/font/segoeuil.ttf');
+}
+
+@font-face {
+	font-family: "segoeui";
+	src: url('/library/font/segoeui.ttf');
+}
 
 /*===================================================================/
 /========================== HEARDER =================================/
@@ -75,6 +93,7 @@ header img{
 #header h1{
 	font-size: 1.5vw;
 	text-align: center;
+	margin:0;
 }
 
 #header .menu_deroulant{
@@ -316,6 +335,10 @@ color: white;
 font-family: segoeui;
 }
 
+.btn:hover{
+box-shadow:10px 10px 20px 0 black;
+}
+
 
 /*background*/
 
@@ -323,7 +346,7 @@ body{
 	background-image:url(../../library/img/accueil/fort_n&b.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin-top: 0;
+	margin: 0;
 }
 
 /*icons*/
@@ -343,5 +366,9 @@ img[class="icon small"]{
 	margin: auto;
 	margin-left: 10px;
 	margin-right: 10px;
+}
+
+.rounded{
+	border-radius: 50%;
 }
 
