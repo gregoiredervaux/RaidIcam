@@ -73,7 +73,7 @@ if(empty($_SESSION['sponsor']))
 			<h1>Ils nous soutiennent</h1>
 		</div>
 		<div id="sponsor_princ_accueil">
-			<?php
+			<!-- <?php
 			if (!empty($_SESSION['sponsor']))
 			{
 				foreach($_SESSION['sponsor'] as $num_sponsor => $ls_donnee)
@@ -86,10 +86,10 @@ if(empty($_SESSION['sponsor']))
 					}
 				}
 			}
-			?>
+			?> -->
 		</div>
 		<div id="sponsor_sec_accueil">
-			<?php
+			<!-- <?php
 			if (!empty($_SESSION['sponsor']))
 			{
 				foreach($_SESSION['sponsor'] as $num_sponsor => $ls_donnee)
@@ -102,10 +102,10 @@ if(empty($_SESSION['sponsor']))
 					}
 				}
 			}
-			?>
+			?> -->
 		</div>
 		<div id="sponsor_ter_acceuil">
-			<?php
+			<!-- <?php
 			if (!empty($_SESSION['sponsor']))
 			{
 				foreach($_SESSION['sponsor'] as $num_sponsor => $ls_donnee)
@@ -118,8 +118,9 @@ if(empty($_SESSION['sponsor']))
 					}
 				}
 			}
-			?>
+			?> -->
 		</div>
 	</section>
+<?php include('../footer.php');?>
 </body>
 </html>
