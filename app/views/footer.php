@@ -26,7 +26,7 @@
   </div>
   <div id="down">
     <div id="copyright">
-      <p><span>Copyright</span> © 2014 Raid ICAM all rights reserved <br/>
+      <p><span>Copyright</span> © 2018 Raid ICAM all rights reserved <br/>
     <span>Created</span> by Benjamin Petit</br>
     <span>Update</span> by Valentin Spender</br>
     <span>And</span> by Grégoire Dervaux</p>
