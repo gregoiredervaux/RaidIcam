@@ -1,0 +1,11 @@
+.formulaire{
+	padding-top:10%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+form{
+	padding:10%;
+	border-radius: 5em;
+	background-color: white;
+}
