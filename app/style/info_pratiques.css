@@ -63,30 +63,55 @@ p{
 	font-size: 11pt;
 }
 
-table{
-	font-size: 14px;
-	font-family: segoeui;
-	color: black;
-	margin-top: 25px;
-	margin-right: auto;
-	margin-left: auto;
+
+/*facture ou tableau des prix*/
+
+#facture{
+	display:flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	align-items: flex-end;
+	background: white;
 }
 
-.tarif-table table{
-	border:1px solid #000000;
+table{
+	border-spacing:0;
+	margin: 2%;
 }
-.tarif-table td{
-	vertical-align:middle;
-	background-color:#F2F2F2;
-	border:1px solid #000000;
-	text-align: center;
-	padding:10px;
+
+.head{
+	background-color: grey;
+	border-top-right-radius: 1.5em;
+	border-top-left-radius: 1.5em;
+	font-family: seguoi;
 }
-.tarif-table .colonne-titre{
-	vertical-align:middle;
-	background-color:#4F99DD;
-	border:1px solid #000000;
-	text-align: center;
-	color: white;
-	padding:12px;
+
+th{
+	padding: 1%;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #404040;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #404040;
+	font-family: seguoil;
+	text-align: right;
+	min-width: 100px;
+}
+
+.head th{
+	text-align: left;
+	border-top-style:solid;
+	border-top-width: 1px;
+	border-color: #404040;
+
+}
+
+#recap_facture .head .premier{
+	min-width: 200px;
+}
+
+#facture p{
+	color:grey;
+	font-size: 0.7em;
 }

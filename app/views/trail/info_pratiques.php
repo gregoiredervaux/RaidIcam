@@ -32,11 +32,11 @@ if($settings['maintenance']['trail']['info_pratiques']==1)
 *******************************************************-->
 
 <div id="titre_principale">
-    <h1>Informations Pratiques</h1>
-    <a href="library/Reglement_Participants_2018.pdf" class="btn">
-    	Téléchargez le règlement participant 2018
-    	<img src="/library/img/icons/crayon.png" class="icon small">
-    </a>
+	<h1>Informations Pratiques</h1>
+	<a href="library/Reglement_Participants_2018.pdf" class="btn">
+		Téléchargez le règlement participant 2018
+		<img src="/library/img/icons/crayon.png" class="icon small">
+	</a>
 </div>
 
 <article>
@@ -54,25 +54,47 @@ if($settings['maintenance']['trail']['info_pratiques']==1)
 			<img src="/library/img/icons/sous.png" class="icon">
 		</h2>
 		<p>Comprend la course, l'animation, et le buffet post course !</p>
-
-		<table class="tarif-table">
-			<tr>
-				<td class="colonne-titre">Tarifs jusqu'au 1 Novembre 2018 (23h59)</td>
-				<td class="colonne-titre">Tarifs du 17 Nomvembre 2018 (23h59)</td>
-			</tr>
-			<tr>
-				<td>Etudiant ICAM : <strong>15€</strong></td>
-				<td>Etudiant ICAM : <strong>20€</strong></td>
-			</tr>
-			<tr>
-				<td>Etudiant non-ICAM : <strong>20€</strong></td>
-				<td>Etudiant non-ICAM : <strong>25€</strong></td>
-			</tr>
-			<tr>
-				<td>Non-étudiant : <strong>25€</strong></td>
-				<td>Non-étudiant : <strong>30€</strong></td>
-			</tr>
-		</table>
+		<div id="facture">
+			<table id="recap_facture">
+				<tr class="head">
+					<th class="premier">désignation</th>
+					<th>prix unitaire</th>
+					<th>quantitée</th>
+					<th>Montant H.T</th>
+				</tr>
+				<tr class="ligne">
+					<th class="premier">part. tiote foulée</th>
+					<th>15€</th>
+					<th>1</th>
+					<th>15€</th>
+				</tr>
+				<tr class="ligne">
+					<th class="premier">frais bancaires</th>
+					<th>1€</th>
+					<th>1</th>
+					<th>1€</th>
+				</tr>
+			</table>
+			<table id="prix_facture">
+				<tr class="head">
+					<th>CT</th>
+					<th>Montant</th>
+				</tr>
+				<tr class="ligne">
+					<th>H.T</th>
+					<th>16€</th>				
+				</tr>
+				<tr class="ligne">
+					<th>TVA</th>
+					<th>*0%</th>
+				</tr>
+				<tr class="ligne">
+					<th>T.T.C</th>
+					<th>16€</th>
+				</tr>
+			</table>
+			<p>*en tant que association à but non lucratif, nous ne sommes pas assujéttie à la TVA</p>
+		</div>
 
 		<h2>
 			Inscription
@@ -91,10 +113,10 @@ if($settings['maintenance']['trail']['info_pratiques']==1)
 		</h2>
 
 		<p>
-			Le chronométrage se fera à l'aide de ...... Il vous sera remis une ...., et il vous faudra la rendre à la fin de Trail. Sa perte sera facturé au participant.
-			Un buffet est prévu pour tous les participants à la fin de la course
-			Prière d'être présent à 17h, pour le commencement du pointage. Nous nous réservons le droit de refuser une personne qui arrive avec trop de retard pour prendre le début de la course, et nous ne reporterons en aucun cas l'heure du départ pour ce motif.
-			La course se déroule dans un cadre naturel, et nous seront très strict quand au respect de l'environement. Nous visons à réduire au maximum notre empreinte environementale, nous vous demandons de faire de même.
+			Le chronométrage se fera à l'aide de puces jetables, Elle vous sera remis lors du check administratif, et il vous faudra la rendre ou la garder sur vous à la fin de Trail.<br>
+			Un buffet est prévu pour tous les participants à la fin de la course.<br>
+			Prière d'être présent à 17h, pour le commencement du pointage. Nous nous réservons le droit de refuser une personne qui arrive avec trop de retard pour prendre le début de la course, et nous ne reporterons en aucun cas l'heure du départ pour ce motif.<br>
+			La course se déroule dans un cadre naturel, et nous seront très strict quant au respect de l'environement. Nous visons à réduire au maximum notre empreinte environementale, nous vous demandons de faire de même.
 		</p>
 
 		<h2>
@@ -103,23 +125,15 @@ if($settings['maintenance']['trail']['info_pratiques']==1)
 		</h2>
 		<ul>
 			<li>1 lampe frontale de bonne facture rechargée</li>
-			<li>1 trousse de secours contenant impérativement : des pansements, des bandes, des compresses et un désinfectant </li>
 			<li>1 téléphone portable (en cas de problème pour contacter l'organisation) </li>
 			<li>1 gilet ou des vetements réfléchissant</li>
-			<li>1 couverture de survie</li>
-			<li>4 épingles à nourrice</li>
-			<li>Rollers ou trottinette</li>
-			<li>1 VTT (si non loué)</li>
-			<li>1 petit sac pour la journée (type camelbag)</li>
-			<li>1 casque VTT (si pas de location de vélo)</li>
-			<li>1 lampe avant et 1 lampe arrière pour vélo</li>
-			<li>1 vêtement de pluie (type K-Way ou Gore tex)</li>
 		</ul>
 		
 		<h2>Matériel conseillé
 			<img src="/library/img/icons/trousse.png" class="icon">
 		</h2>
 		<ul>
+			<li>1 trousse de secours contenant : des pansements, des bandes, des compresses, un désinfectant et une couverture de survie</li>
 			<li>1 système d'hydratation type gourde ou camelbag</li>
 			<li>1 vetement de pluie (type k-way ou Gore tex)</li>
 			<li>1 vetement de sport chaud et un collant</li>
