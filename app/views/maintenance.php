@@ -23,19 +23,29 @@ include '../../config.php';
 			align-items: center;
 			flex-direction: column;
 			height: 100vh;
-			background-color: rgba(255, 165, 0, 0.5);
+			background-color: rgba(255, 165, 0, 0.8);
 			color:white;
 		}
 		h1{
 			font-family: Capture it;
 			font-size: 3em;
+			display:flex;
+			align-items:center;
+			justify-content: center;
+			flex-direction: column;
+		}
+
+		h1 img{
+			width:20%;
+			height: auto;
 		}
     </style>
 </head>
 <body>
-	<h1>Cette section du site n'est pas disponible</h1>
-	<p>si vous pensez qu'il puisse s'agir d'une erreur, alors contactez le raid via 
-		<a <?php echo('href="mailto'+$settings['email']+'"')?>>
-		cette adresse email</a></p>
+	<h1>
+		Attention, section en travaux, promis on y ibosse dure !
+		<img src="/library/img/icons/maintenance.png" alt="maintenance">
+	</h1>
+	<p>PS: si vraiment vous ne pouvez pas patienter, vous pouvez destresser <a href="http://orteil.dashnet.org/experiments/cookie/">la</a> ou <a href="http://www.donothingfor2minutes.com/">la</a></p>
 </body>
 </html>
