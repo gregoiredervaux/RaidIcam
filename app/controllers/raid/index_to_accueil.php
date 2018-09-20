@@ -9,8 +9,6 @@ if($settings['maintenance']['raid']['accueil']==1)
 }
 else
 {
-	$bd=new db;
-	$bd -> put_sponsors();
 	header('Location: ../../views/raid/accueil.php');
 }
 ?>

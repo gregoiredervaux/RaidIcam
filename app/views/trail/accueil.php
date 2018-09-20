@@ -1,9 +1,9 @@
 <?php
 session_start();
-if(empty($_SESSION['sponsor']))
-{
-	header("Location: /");
-}
+// if(empty($_SESSION['sponsor']))
+// {
+// 	header("Location: /");
+// }
 
 require('../../../config.php');
 
@@ -75,12 +75,12 @@ if($settings['maintenance']['trail']['accueil']==1)
       </div>
     </section>
 	
-	<section id="bandeau_sponsors_accueil">
+	<!-- <section id="bandeau_sponsors_accueil">
 		<div id="titre_info">
 			<h1>Ils nous soutiennent</h1>
 		</div>
 		<div id="sponsor_princ_accueil">
-			<!-- <?php
+			<?php
 			if (!empty($_SESSION['sponsor']))
 			{
 				foreach($_SESSION['sponsor'] as $num_sponsor => $ls_donnee)
@@ -93,10 +93,10 @@ if($settings['maintenance']['trail']['accueil']==1)
 					}
 				}
 			}
-			?> -->
+			?>
 		</div>
 		<div id="sponsor_sec_accueil">
-			<!-- <?php
+			<?php
 			if (!empty($_SESSION['sponsor']))
 			{
 				foreach($_SESSION['sponsor'] as $num_sponsor => $ls_donnee)
@@ -109,10 +109,10 @@ if($settings['maintenance']['trail']['accueil']==1)
 					}
 				}
 			}
-			?> -->
+			?>
 		</div>
 		<div id="sponsor_ter_acceuil">
-			<!-- <?php
+			<?php
 			if (!empty($_SESSION['sponsor']))
 			{
 				foreach($_SESSION['sponsor'] as $num_sponsor => $ls_donnee)
@@ -125,9 +125,9 @@ if($settings['maintenance']['trail']['accueil']==1)
 					}
 				}
 			}
-			?> -->
+			?>
 		</div>
-	</section>
+	</section> -->
 <?php include('../footer.php');?>
 </body>
 </html>
