@@ -33,10 +33,10 @@ if($settings['maintenance']['trail']['info_pratiques']==1)
 
 <div id="titre_principale">
 	<h1>Informations Pratiques</h1>
-	<a href="library/Reglement_Participants_2018.pdf" class="btn">
+	<!-- <a href="library/Reglement_Participants_2018.pdf" class="btn">
 		Téléchargez le règlement participant 2018
 		<img src="/library/img/icons/crayon.png" class="icon small">
-	</a>
+	</a> -->
 </div>
 
 <article>
@@ -93,7 +93,7 @@ if($settings['maintenance']['trail']['info_pratiques']==1)
 					<th>16€</th>
 				</tr>
 			</table>
-			<p>*en tant que association à but non lucratif, nous ne sommes pas assujéttie à la TVA</p>
+			<p>*en tant qu' association à but non lucratif, nous ne sommes pas assujéttie à la TVA</p>
 		</div>
 
 		<h2>
@@ -116,7 +116,7 @@ if($settings['maintenance']['trail']['info_pratiques']==1)
 			Le chronométrage se fera à l'aide de puces jetables, Elle vous sera remis lors du check administratif, et il vous faudra la rendre ou la garder sur vous à la fin de Trail.<br>
 			Un buffet est prévu pour tous les participants à la fin de la course.<br>
 			Prière d'être présent à 17h, pour le commencement du pointage. Nous nous réservons le droit de refuser une personne qui arrive avec trop de retard pour prendre le début de la course, et nous ne reporterons en aucun cas l'heure du départ pour ce motif.<br>
-			La course se déroule dans un cadre naturel, et nous seront très strict quant au respect de l'environement. Nous visons à réduire au maximum notre empreinte environementale, nous vous demandons de faire de même.
+			La course se déroule dans un cadre naturel, et nous seront très strict quant au respect de l'environnement. Nous visons à réduire au maximum notre empreinte environnementale, nous vous demandons de faire de même.
 		</p>
 
 		<h2>
@@ -126,7 +126,7 @@ if($settings['maintenance']['trail']['info_pratiques']==1)
 		<ul>
 			<li>1 lampe frontale de bonne facture rechargée</li>
 			<li>1 téléphone portable (en cas de problème pour contacter l'organisation) </li>
-			<li>1 gilet ou des vetements réfléchissant</li>
+			<li>1 gilet ou des vêtements réfléchissants</li>
 		</ul>
 		
 		<h2>Matériel conseillé
@@ -135,9 +135,9 @@ if($settings['maintenance']['trail']['info_pratiques']==1)
 		<ul>
 			<li>1 trousse de secours contenant : des pansements, des bandes, des compresses, un désinfectant et une couverture de survie</li>
 			<li>1 système d'hydratation type gourde ou camelbag</li>
-			<li>1 vetement de pluie (type k-way ou Gore tex)</li>
+			<li>1 vêtement de pluie (type k-way ou Gore tex)</li>
 			<li>1 vetement de sport chaud et un collant</li>
-			<li>des barres energétiques</li>
+			<li>des barres énergétiques</li>
 		</ul>
 	</section>
 </article>

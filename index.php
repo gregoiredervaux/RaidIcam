@@ -22,7 +22,7 @@
 				<img src="/library/img/logo_gros.png">
 			</div>
 			<div class="contenu_assos drt">
-				<h2>L'assocaition Raid Icam Lille</h2>
+				<h2>L'association Raid Icam Lille</h2>
 				<p class="descr_titre">
 					L’association a été créée dans le courant de l’année 2014 par une équipe de 2ème et 3ème années de l’ICAM LILLE. Après avoir participé à de nombreux RAID multisports pour la plupart, nous sommes aujourd'hui 26 étudiants décidés à organiser intégralement un Raid sous la bannière de l’ICAM pour vous proposer cette formidable expérience. 
 				</p>
@@ -33,7 +33,7 @@
 				<h2>Nos valeurs</h2>
 				<p class="descr_titre">
 					Dépassement de soi, travail d'équipe, et convivialité sont les maîtres mots pour faire du Raid ICAM un événement unique qui restera dans vos mémoires.
-					Si nous avons pu devenir l'année dernière une manche du challenge nationnal, le Raid icam est et restera un Raid étudiant. Nous vont offrons une occasion de vous dépasser, et même pour certain de faire tomber les chronos et de rafler la premier place, mais nous vous offrons surtout une chance de passer un très bon moment.
+					Si nous avons pu devenir l'année dernière une manche du challenge nationnal, le Raid icam est et restera un Raid étudiant. Nous vous offrons une occasion de vous dépasser, et même pour certain de faire tomber les chronos et de rafler la première place, mais surtout, nous vous offrons une chance de passer un très bon moment !
 				</p>
 			</div>
 			<div class="container">
@@ -56,7 +56,7 @@
 				<div class="container_img">
 					<img src="/library/img/Membres/2019/florent_baron.png">
 					<p class="nom">Florent Baron<br>
-									Picsous</p>
+									Picsou</p>
 				</div>
 				<div class="container_img">
 					<img src="/library/img/Membres/2019/tanguy_vanbremeersch.png">
@@ -64,10 +64,10 @@
 									Riri</p>
 				</div>
 			</div>
-			<h2>Les mains de fer dans des gants de velour, les catalyseurs, les faiseurs de miracle, j'ai nommé ... <strong>La direction !</strong></h2>
+			<h2>Les mains de fer dans des gants de velours, les catalyseurs, les faiseurs de miracle, j'ai nommé ... <strong>La direction !</strong></h2>
 		</div>
 		<div class="ligne_info">
-			<h2>Les demarcheurs de l'extrème, les artistes, les pros du photomontage, j'ai nommé <strong>Le pôle Com !</strong></h2>
+			<h2>Les démarcheurs de l'extrême, les artistes, les pros du photomontage, j'ai nommé <strong>Le pôle Com !</strong></h2>
 			<div class="container_equipe">
 				<div class="container_img">
 					<img src="/library/img/Membres/2019/lucie_hay.png" alt="lucie hay" />
@@ -134,7 +134,7 @@
 					<p class="nom">François Delaporte</p>
 				</div>
 			</div>
-			<h2>Les cuisses de béton, les explorateurs, les marins d'eaux douces, les seuls personnes classes avec un collant, j'ai nommé.. <strong>Le pôle Sport !</strong></h2>
+			<h2>Les cuisses de béton, les explorateurs, les marins d'eau douce, les seules personnes classes en collant, j'ai nommé.. <strong>Le pôle Sport !</strong></h2>
 		</div>
 		<div class="ligne_info">
 			<h2>Les plannificateurs, les rois du calendrier, ceux pour qui rien n'est impossible j'ai nommé...<strong>Le pôle Log !</strong></h2>
@@ -172,10 +172,10 @@
 					<p class="nom">Guillaume Wartelle-Hugues</p>
 				</div>
 			</div>
-			<h2>Les chevaliers de l'ombre, Les baliseurs infatigables, notre seul espoire quand tout va mal, j'ai nommé... <strong>Le Pôle sécu !</strong></h2>
+			<h2>Les chevaliers de l'ombre, Les baliseurs infatigables, notre seul espoir quand tout va mal, j'ai nommé... <strong>Le Pôle sécu !</strong></h2>
 		</div>
 		<div class="ligne_info">
-			<h2>Et enfin les plus important, ceux qui vont faire que ce week end sera exeptionnel, la crème de la crème, les véritables chefs de ce Raid Icam ... <strong>Le Pole ravito !</strong></h2>
+			<h2>Et enfin les plus importants, ceux qui vont faire que ce week end sera exceptionnel, la crème de la crème, les véritables chefs de ce Raid Icam ... <strong>Le Pôle ravito !</strong></h2>
 			<div class="container_equipe">
 				<div class="container_img">
 					<img src="/library/img/Membres/2019/pauline_dumortier.png" alt="pauline_dumortier" />

@@ -42,7 +42,7 @@ if($settings['maintenance']['trail']['accueil']==1)
           </div>
           <div class="text_triptique triptique_element">
             <p>
-  				14.5 km de course à la lueur de la frontale, un parcours sans grande difficulté, un peu de dénivelé positif, pour un maximum de plaisir !
+  				14.5 km de course à la lueur de la frontale, un parcours sans grandes difficultés, un peu de dénivelé positif, pour un maximum de plaisir !
             </p>
           </div>
         </div>
@@ -55,7 +55,7 @@ if($settings['maintenance']['trail']['accueil']==1)
           </div>
           <div class="text_triptique triptique_element">
             <p>
-              Rendez vous à Ablain-Saint-Nazaire pour découvrir des sentiers entre forêt et champs à travers le Pas-de-calais
+              Rendez vous à Ablain-Saint-Nazaire pour découvrir des sentiers entre forêts et champs à travers le Pas-de-calais
             </p>
           </div>
         </div>
@@ -68,7 +68,7 @@ if($settings['maintenance']['trail']['accueil']==1)
           </div>
           <div class="text_triptique triptique_element">
             <p>
-              Vous pourrez compter sur notre équipe de bénévoles pour vous accueillir et vous rasssier lors du buffet d'après course !
+              Vous pourrez compter sur notre équipe de bénévoles pour vous accueillir et vous rassasier lors du buffet d'après course !
             </p>
           </div>
         </div>

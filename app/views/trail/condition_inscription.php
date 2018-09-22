@@ -9,7 +9,6 @@
 		<img src="/library/img/icons/biere.png" class="icon small">
 	</h4>
 	<li>Licence FFSU, FFTri, FFA ou certificat médical valide</li>
-	<li>Copie de la carte étudiante 2018-2019 ou certificat de scolarité</li>
 
 	<h4>
 		Pour les non étudiants:
